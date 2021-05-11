@@ -1,0 +1,61 @@
+
+<html>
+  <head>
+    <title>MobileNet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <center>
+<div class="col-xs-12 Div_1">
+  <marquee scrollamount="20" direction="right">Image Identification App
+    <img src="logo.gif">
+  </marquee>
+</div>
+<div class="col-sm-6 col-xs-12 Main_Div">
+  <label>Webcam View - </label>
+  <div id="Camera"></div>
+  <button class="Cap_Img btn btn-info" onclick="Snapshot()">Capture Image</button>
+</div>
+<div class="col-sm-6 col-xs-12 Main_Div">
+  <label>Snapshot - </label>
+  <div id="Snap_shot"></div>
+  <button class="Cap_Img btn btn-success" onclick="Predictor()">Predict Object</button>
+</div>
+    </center>
+    <div class="col-xs-12 Footer_Div">
+<div class="col-sm-6 col-xs-12">
+  <img src="blub.gif" style="margin-bottom: 35px;">
+  <span id="Obj_Name">Lorem</span>
+</div>
+    </div> 
+<div id="Copyright_Footer">
+      <h2>Designed & Developed by - Samhita V</h2>
+    </div>  
+<script src="main.js"></script>
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
